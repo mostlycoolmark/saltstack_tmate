@@ -13,7 +13,7 @@ saltminion:
 
 # installation
 
-Place this file into your execution modules into your execution modules directory (default: /srv/salt/_modules).
+Place this file into your execution modules directory (default: /srv/salt/_modules).
 
 Sync the module to your minions:
 
