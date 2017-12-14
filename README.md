@@ -9,3 +9,14 @@ root@saltmaster:~# salt saltminion tmate.new_session
 saltminion:
     ssh YNCKohVaD2Ccx4vV2Yemt9Sge@ny2.tmate.io
 ```
+
+
+# installation
+
+Place this file into your execution modules into your execution modules directory (default: /srv/salt/_modules).
+
+Sync the module to your minions:
+
+```
+salt '*' saltutil.sync_modules
+```
