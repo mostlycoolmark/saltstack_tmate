@@ -10,6 +10,22 @@ saltminion:
     ssh YNCKohVaD2Ccx4vV2Yemt9Sge@ny2.tmate.io
 ```
 
+Additionally, you can view open tmate sessions on a miniont:
+
+```
+root@saltmaster:~# salt saltminion tmate.list_sessions
+saltminion:
+    ssh YNCKohVaD2Ccx4vV2Yemt9Sge@ny2.tmate.io
+```
+
+Finally, kill all sessions on a minion
+
+```
+root@saltmaster:~# salt saltminion tmate.killall
+saltminion:
+    True
+```
+
 
 # installation
 
