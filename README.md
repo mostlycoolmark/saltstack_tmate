@@ -10,7 +10,7 @@ saltminion:
     ssh YNCKohVaD2Ccx4vV2Yemt9Sge@ny2.tmate.io
 ```
 
-Additionally, you can view open tmate sessions on a miniont:
+Additionally, you can view open tmate sessions on a minion:
 
 ```
 root@saltmaster:~# salt saltminion tmate.list_sessions
